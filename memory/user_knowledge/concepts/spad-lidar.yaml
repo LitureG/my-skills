@@ -1,6 +1,0 @@
-name: "SPAD / 单光子激光雷达"
-description: 单光子探测技术在激光雷达中的应用，延伸方向
-concepts:
-  - name: SPAD 传感器原理
-    level: L1
-    notes: 延伸方向

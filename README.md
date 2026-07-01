@@ -1,24 +1,17 @@
 # my-skills
 
-Personal Claude Code skills and knowledge configuration, managed via [cc-switch](https://ccswitch.io).
+Personal Claude Code skills, managed via [cc-switch](https://ccswitch.io).
 
 ## Structure
 
 ```
 skills/           # Custom skills — deployed by cc-switch
-  ├── code-reader/
-  ├── docx-editor-cn/
-  ├── note/
-  ├── paper-read/
-  ├── paper-summary/
-  ├── research-manager/
-  ├── skill-evolution/
-  └── todo/
-memory/           # User knowledge profile
-  ├── MEMORY.md
-  └── user_knowledge/
-      ├── subjects/   # Subject-level knowledge (L0-L3 + C1-C3 + timeliness)
-      └── concepts/   # Cross-disciplinary concept definitions
+  ├── code-reader/       深度学习代码阅读
+  ├── note/              笔记系统
+  ├── paper-read/        论文深度阅读 Q&A
+  ├── paper-summary/     论文概览
+  ├── skill-evolution/   技能进化追踪
+  └── todo/              待办管理
 ```
 
 ## Usage
