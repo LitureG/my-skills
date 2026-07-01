@@ -5,7 +5,7 @@ Personal Claude Code skills, managed via [cc-switch](https://ccswitch.io).
 ## Structure
 
 ```
-skills/           # Custom skills — deployed by cc-switch
+my-skills/
   ├── code-read-style/             深度学习代码阅读
   ├── make-todoist/                待办管理（Todoist）
   ├── paper-read/                  论文深度阅读 Q&A
@@ -21,5 +21,5 @@ skills/           # Custom skills — deployed by cc-switch
    - Owner: `LitureG`
    - Name: `my-skills`
    - Branch: `main`
-   - Subdirectory: `skills`
+   - Subdirectory: *(留空)*
 2. Install individual skills from the cc-switch Skills panel.

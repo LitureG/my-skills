@@ -1,5 +1,5 @@
 ---
-name: code-reader
+name: code-read-style
 description: Help user read and understand deep learning algorithm source code using a 3-layer reading method. Distinguishes universal design patterns from one-off tricks. Trigger when user says "帮我读一下这个算法", "分析这个网络", "这个模块我不太懂", "帮我理解这段代码", "read this code", or is working on algorithm source files.
 ---
 

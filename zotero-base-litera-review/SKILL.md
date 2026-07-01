@@ -1,5 +1,5 @@
 ---
-name: wos-literature-review
+name: zotero-base-litera-review
 description: End-to-end WoS literature review — two-pass search (broad + focused) with citation-based tiered quality filtering, subagent title/abstract screening, Zotero import, and a documented reading list; review writing is gated on user confirmation. Trigger when the user asks to survey a field via WoS, e.g. "用WoS调研X文献", "检索X加入Zotero", "WoS literature review on X".
 argument-hint: "[研究领域/主题] [--collection Zotero集合路径] [--year 年限]"
 user-invocable: true

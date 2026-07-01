@@ -1,5 +1,5 @@
 ---
-name: todo
+name: make-todoist
 description: Manage Todoist tasks via natural language. Add tasks, check progress, list upcoming work — from any project, without explaining context. Trigger when user says things like "添加任务", "提醒我", "看看我的任务", "今天有什么", "进度", "创建一个计划", "/todo".
 allowed-tools: Bash(python3 /home/glc/plans/todoist_cli.py:*), Bash(python3 ~/plans/todoist_cli.py:*), Bash(/home/glc/plans/todoist_cli.py:*), Bash(python3 /home/glc/bin/todoist:*)
 ---

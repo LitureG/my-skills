@@ -1,5 +1,5 @@
 ---
-name: note
+name: write-zotero-note
 description: 将对话中的讨论总结写入笔记。支持论文笔记（挂载到 Zotero 条目下）和通用笔记两种类型。触发：用户说"记下来"、"写到笔记"、"记录一下"、"/note" 等。
 ---
 
