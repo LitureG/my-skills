@@ -1,0 +1,28 @@
+subject: "智能优化"
+coverage: C2
+timeliness: (d)
+sub_topics:
+  - id: framework
+    name: 智能优化整体框架与概念
+    level: L1
+  - id: sa
+    name: 模拟退火（SA）
+    level: L1
+  - id: ga
+    name: 遗传算法（GA）
+    level: L1
+  - id: aco
+    name: 蚁群算法（ACO）
+    level: L1
+  - id: pso
+    name: 粒子群算法（PSO）
+    level: L1
+  - id: other-swarms
+    name: 其他群智能（鱼群/蜂群等）
+    level: L1
+  - id: convergence
+    name: 收敛性分析与参数调节
+    level: L1
+  - id: multiobj
+    name: 多目标/约束优化
+    level: L1

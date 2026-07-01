@@ -1,0 +1,28 @@
+subject: "线性代数"
+coverage: C3
+timeliness: (d)
+sub_topics:
+  - id: vec-space
+    name: 向量空间与线性变换
+    level: L3
+  - id: lu-decomp
+    name: 矩阵分解 — LU分解
+    level: L3
+  - id: qr-svd
+    name: 矩阵分解 — QR/SVD
+    level: L1
+  - id: norms
+    name: 范数与内积
+    level: L3
+  - id: lin-sys
+    name: 线性方程组求解
+    level: L3
+  - id: matrix-calc
+    name: 矩阵微积分（梯度、Jacobian）
+    level: L1
+  - id: eigen
+    name: 特征值与特征向量
+    level: L3
+  - id: ml-app
+    name: PCA / 最小二乘等 ML 应用
+    level: L1

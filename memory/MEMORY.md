@@ -1,0 +1,18 @@
+- [研究领域与技术栈](user_research_domain.md) — 自动驾驶激光雷达感知，OpenPCDet，Zotero 文库结构，工作流偏好
+- [ARA research-manager 配置](ara_config_work.md) — 2026-06-05 完成领域适配配置，GitHub 镜像和上游 issue
+- [知识模型（已迁移至 subjects/）](user_knowledge_model.md) — 用户在各学科子主题的掌握程度分级（L0-L3）+ 广度（C1-C3）+ 时效性，paper-read skill 通过 SUBJECTS_DIR 引用
+- [线性代数](user_knowledge/subjects/linear-algebra.yaml) — vec-space L3, matrix-decomp L3/L1, norms L3, lin-sys L3, matrix-calc L1, eigen L3, ml-app L1
+- [概率论与统计](user_knowledge/subjects/probability-statistics.yaml) — prob-basics L3, distributions L3, moments L3, bayes L2, limit-theorems L3, estimation L2, hypothesis-test L2, info-theory L1
+- [智能优化](user_knowledge/subjects/intelligent-optimization.yaml) — 全部 L1, C2
+- [传统优化](user_knowledge/subjects/traditional-optimization.yaml) — lagrange-multiplier L1(d), convex-opt L0
+- [数字信号处理](user_knowledge/subjects/digital-signal-processing.yaml) — fourier L3, sampling L3, convolution L2, z-transform L2, filter-design L1, spectral L2, wavelet L2
+- [高速信号处理](user_knowledge/subjects/high-speed-signal-processing.yaml) — tfa-basics L3, stft L3, wvd L3, wavelet L2, hht L2, random-signal L2, psd L1, adaptive-filter L1, kalman L3
+- [数值分析](user_knowledge/subjects/numerical-analysis.yaml) — error-analysis L3, num-lin-sys L3, interpolation L3, num-calc L2, num-opt L1, num-ode L2, monte-carlo L1
+- [高等数学](user_knowledge/subjects/calculus.yaml) — 全部 L3, C3, (d)
+- [理论力学](user_knowledge/subjects/theoretical-mechanics.yaml) — statics L3, kinematics L3, dynamics L3, rigid-body-rotation L3, analytical-mechanics L1, coord-transform L3, quaternion L2
+- [自动控制原理](user_knowledge/subjects/automatic-control.yaml) — transfer-function L3, time-domain L3, root-locus L2, freq-domain L3, state-space L1, controllability L1, pid L2, discrete-control L1, lyapunov L1
+- [深度学习基础](user_knowledge/concepts/deep-learning-basics.yaml) — CNN L2, loss L2, optimizers L2, residual/FPN L2
+- [激光雷达感知](user_knowledge/concepts/lidar-perception.yaml) — voxelization L3, 3D detection L3, point-cloud L3, datasets L3, OpenPCDet L3
+- [恶劣天气鲁棒性](user_knowledge/concepts/adverse-weather.yaml) — rain-fog model L2, synthetic rain L2, detection L2
+- [扩散模型](user_knowledge/concepts/diffusion-models.yaml) — concept L1, structure L0, math L0
+- [SPAD 单光子激光雷达](user_knowledge/concepts/spad-lidar.yaml) — SPAD sensor L1

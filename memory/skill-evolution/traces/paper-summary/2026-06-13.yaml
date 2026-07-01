@@ -1,0 +1,11 @@
+# paper-summary traces for 2026-06-13
+
+- paper: LISA
+  search_method: semantic
+  search_rank: 1
+  search_retries: 1
+  content_mode: complete
+  note: |
+    PDF 文件在 Zotero storage 中不存在（仅残留 .zotero-ft-cache），
+    MCP get_content 返回 NotFoundError。
+    最终通过读取 .zotero-ft-cache 获取完整全文文本完成总结。

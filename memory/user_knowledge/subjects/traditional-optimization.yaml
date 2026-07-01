@@ -1,0 +1,12 @@
+subject: "传统优化"
+coverage: C1
+timeliness: (d)
+notes: "学过少量传统优化内容，非主要方向。智能优化为主要路线（见 intelligent-optimization.yaml）"
+sub_topics:
+  - id: lagrange-multiplier
+    name: 拉格朗日乘子法
+    level: L1
+    timeliness: (d)
+  - id: convex-optimization
+    name: 凸优化（凸集/凸函数/KKT等）
+    level: L0

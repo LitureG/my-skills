@@ -1,0 +1,25 @@
+subject: "理论力学"
+coverage: C3
+timeliness: (d)
+sub_topics:
+  - id: statics
+    name: 静力学基础（力系、平衡）
+    level: L3
+  - id: kinematics
+    name: 运动学（点的运动、刚体运动）
+    level: L3
+  - id: dynamics
+    name: 动力学（牛顿定律、动量/角动量定理）
+    level: L3
+  - id: rigid-body-rotation
+    name: 刚体定点转动与欧拉角
+    level: L3
+  - id: analytical-mechanics
+    name: 分析力学（虚功原理、拉格朗日方程）
+    level: L1
+  - id: coord-transform
+    name: 坐标系变换与旋转矩阵
+    level: L3
+  - id: quaternion
+    name: 四元数与姿态表示
+    level: L2

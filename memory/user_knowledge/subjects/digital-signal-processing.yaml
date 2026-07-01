@@ -1,0 +1,25 @@
+subject: "数字信号处理"
+coverage: C3
+timeliness: (f)
+sub_topics:
+  - id: fourier
+    name: 傅里叶变换（连续/离散）
+    level: L3
+  - id: sampling
+    name: 采样定理
+    level: L3
+  - id: convolution
+    name: 卷积与滤波
+    level: L2
+  - id: z-transform
+    name: Z 变换
+    level: L2
+  - id: filter-design
+    name: 数字滤波器设计
+    level: L1
+  - id: spectral
+    name: 谱分析
+    level: L2
+  - id: wavelet
+    name: 小波变换
+    level: L2

@@ -1,0 +1,28 @@
+subject: "概率论与统计"
+coverage: C3
+timeliness: (d)
+sub_topics:
+  - id: prob-basics
+    name: 基础概率与随机变量
+    level: L3
+  - id: distributions
+    name: 常见分布及其性质
+    level: L3
+  - id: moments
+    name: 期望/方差/矩
+    level: L3
+  - id: bayes
+    name: 条件概率与贝叶斯定理
+    level: L2
+  - id: limit-theorems
+    name: 大数定律与中心极限定理
+    level: L3
+  - id: estimation
+    name: 参数估计（MLE / MAP）
+    level: L2
+  - id: hypothesis-test
+    name: 假设检验与置信区间
+    level: L2
+  - id: info-theory
+    name: 信息论基础（熵、KL散度）
+    level: L1

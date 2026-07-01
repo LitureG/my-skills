@@ -1,0 +1,10 @@
+name: "恶劣天气鲁棒性"
+description: 雨雾等恶劣天气下的激光雷达感知延伸方向
+concepts:
+  - name: 雨雾衰减建模
+    level: L2
+    notes: 延伸方向
+  - name: 降雨数据合成
+    level: L2
+  - name: 恶劣天气目标识别
+    level: L2

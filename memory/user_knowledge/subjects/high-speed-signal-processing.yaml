@@ -1,0 +1,31 @@
+subject: "高速信号处理"
+coverage: C3
+timeliness: (d)
+sub_topics:
+  - id: tfa-basics
+    name: 时频分析基础
+    level: L3
+  - id: stft
+    name: 短时傅里叶变换（STFT）
+    level: L3
+  - id: wvd
+    name: Wigner-Ville 分布
+    level: L3
+  - id: wavelet
+    name: 小波变换
+    level: L2
+  - id: hht
+    name: 希尔伯特-黄变换（HHT）
+    level: L2
+  - id: random-signal-basics
+    name: 随机信号基础（平稳性、各态历经性）
+    level: L2
+  - id: psd-estimation
+    name: 随机信号功率谱估计
+    level: L1
+  - id: adaptive-filter
+    name: 自适应滤波
+    level: L1
+  - id: kalman
+    name: Kalman 滤波
+    level: L3

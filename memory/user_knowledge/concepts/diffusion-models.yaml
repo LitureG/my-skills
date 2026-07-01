@@ -1,0 +1,10 @@
+name: "扩散模型"
+description: 扩散模型相关知识，应用于点云生成等方向
+concepts:
+  - name: 扩散模型基本概念（加噪→去噪）
+    level: L1
+    notes: 2026-06-08 确认
+  - name: 扩散模型网络结构
+    level: L0
+  - name: 扩散过程数学原理
+    level: L0
