@@ -3,7 +3,7 @@ name: paper-summary
 description: 对 Zotero 中的单篇文献进行结构化总结。AI 自动识别文献类型并采用对应模板。触发：用户说"总结这篇论文"、"分析这篇文献"、"summarize this paper"、指定文献标题/作者要求总结等。
 ---
 
-# 单篇文献总结 Skill
+# 单篇文献全文总结 Skill
 
 ## 核心原则
 
@@ -51,7 +51,7 @@ description: 对 Zotero 中的单篇文献进行结构化总结。AI 自动识�
 
 ### 3. 内容提取
 
-阅读题录、摘要，必要时读取 PDF 全文，按对应模板提取信息。
+阅读题录、摘要，读取 PDF 全文，按对应模板提取信息。
 
 ### 4. 写入 Markdown 文件
 
@@ -87,12 +87,12 @@ model: xx模型
 #### 关键规则
 
 - YAML 头后的**第一行必须是H1标题**，格式为 `# 论文简称 全文总结`（Zotero/Better Notes 用此行作笔记标题）
-- 第二行为空行，第三行引注 `> 由 XX模型 于 YYYY-MM-DD 生成`
 - YAML 中 `tags: [AI总结]` 用于 Zotero 中筛选
 - 第三行格式为 `> 由 XX模型 于 YYYY-MM-DD 生成`，写入时填入实际模型名和当天日期
 - YAML 中 `model` 字段填入实际使用的模型名
 - 正文用标准 Markdown：H1 标题（`#`）、H2 一级小节（`##`）、H3 二级小节（`###`）、`-` 列表、`>` 引用、表格、代码块
 - 公式用标准 LaTeX 语法
+- 在相应位置插入关键核心图表，采用[图1/表1]格式
 - 写入后告知用户：文件已生成，需在 Better Notes 中 **从 md 文件导入笔记** 并勾选 **保持同步**（仅初次需要）
 
 ### 5. 按模板输出
@@ -217,19 +217,26 @@ model: xx模型
 
 总结完成后，如用户想深入了解论文中的具体方法/模块，将自动进入 `paper-read` 交互式深度问答模式。
 
-## 进化追踪
+## 轻量追踪
 
-本 skill 在执行完成后，将以下字段写入 `~/.claude/projects/-home-glc/memory/skill-evolution/traces/paper-summary/YYYY-MM-DD.yaml`（追加到当日文件）：
+如果本轮总结暴露出明显的检索失败、用户纠正或重复请求，可在
+`/home/glc/.codex/skill-tracking/usage.jsonl` 追加一条 JSONL 记录。不要为每次正常
+执行强制作记录；追踪只用于后续人工复盘。
 
-| 埋点 | 值域 | 说明 |
+推荐放入 `quality_signals` 的字段：
+
+| 字段 | 值域 | 说明 |
 |---|---|---|
 | `search_method` | `semantic` / `collection_fallback` / `direct` | 使用了哪种文献定位方式 |
 | `search_rank` | int 或 null | 目标论文在首次语义搜索结果中的排名（未使用语义搜索则为 null） |
 | `search_retries` | int | 定位文献总共试了几次（含 query 变体重试和方案回退） |
 | `content_mode` | `minimal` / `preview` / `standard` / `complete` | 最终使用的全文提取模式 |
 
+不要写旧的 `skill-evolution/traces/paper-summary/*.yaml`。
+
 ### 变更历史
 
 | 版本 | 日期 | 变更 |
 |---|---|---|
 | 1.0 | 2026-06-07 | 初始埋点 |
+| 1.1 | 2026-06-29 | 改为统一轻量 JSONL 追踪，废弃 per-skill YAML 埋点 |
